@@ -1,0 +1,19 @@
+<library>
+  <repositories>
+    <repository>
+      <path>../../ext/modm/repo.lb</path><!-- path to modm repository -->
+    </repository>
+  </repositories>
+  <!-- extend this built-in board configuration
+       see `lbuild discover modm` for more configurations -->
+  <!-- <extends>modm:nucleo-f103rb</extends> -->
+  <extends>modm:nucleo-f411re</extends>
+  <options>
+    <!-- we can move the build path to a common folder -->
+    <option name="modm:build:build.path">../../build/blinky</option>
+  </options>
+  <modules>
+    <module>modm:build:scons</module>
+    <module>modm:build:cmake</module>
+  </modules>
+</library>
