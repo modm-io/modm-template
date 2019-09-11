@@ -1,0 +1,17 @@
+.sconsign.dblite
+project.xml.log
+__pycache__/
+build/
+
+/project/blinky/SConstruct
+/project/blinky/CMakeLists.txt
+/project/blinky/Makefile
+/project/blinky/modm/
+
+/project/custom_board/SConstruct
+/project/custom_board/CMakeLists.txt
+/project/custom_board/Makefile
+/project/custom_board/modm/
+
+# Everything here is committed
+# project/frozen_dependencies
